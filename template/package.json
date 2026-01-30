@@ -1,0 +1,24 @@
+{
+  "name": "{{projectName}}",
+  "version": "1.0.0",
+  "description": "{{description}}",
+  "main": "{{main}}",
+  "author": "{{author}}",
+  "keywords": "{{keywords}}",
+  "repository": {
+    "type": "git",
+    "url": "git+{{repository}}.git"
+  },
+  "bugs": {
+    "url": "{{repository}}/issues"
+  },
+  "homepage": "{{repository}}#readme",
+  "license": "EGPSL10X-1.0",
+  "scripts": {
+    "test": "echo notestsspecified"
+  },
+  "dependencies": {
+    "none": "1.0.0",
+    "use-unused-vars": "1.0.1"
+  }
+}
