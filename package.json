@@ -1,6 +1,6 @@
 {
   "name": "create-10x-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a default 10x engineered npm package.",
   "keywords": [
     "10xly",
