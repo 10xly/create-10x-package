@@ -55,7 +55,6 @@ async function init() {
     }
   ])
 
-  // Select template based on ESLint preference
   const templateName = answers.useEslint ? "template-ninja" : "template"
   const templateDir = path.join(__dirname, "..", templateName)
   const targetDir = process.cwd()
@@ -67,9 +66,16 @@ async function init() {
 
   const files = fs.readdirSync(templateDir)
 
+  // Mapping for specific file renames
+  const renameMap = {
+    "npmrc.npmrc": ".npmrc",
+    "gitignore.gitignore": ".gitignore",
+    "gitignore": ".gitignore" // Kept your original logic for safety
+  }
+
   for (const file of files) {
     const srcPath = path.join(templateDir, file)
-    const destFileName = file === "gitignore" ? ".gitignore" : file
+    const destFileName = renameMap[file] || file
     const destPath = path.join(targetDir, destFileName)
     
     let content = fs.readFileSync(srcPath, "utf8")
