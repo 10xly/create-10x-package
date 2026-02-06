@@ -1,9 +1,12 @@
+/* eslint-disable capitalized-comments */
 /**
  * {{projectName}}
  * {{author}}
  * {{description}}
  * EGPSL10X-1.0 LICENCED
  */
+
+/* eslint-enable capitalized-comments */
 
 /**********************************************************************/
 // Begin performance optimizations.
