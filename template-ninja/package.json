@@ -23,16 +23,7 @@
     "use-unused-vars": "1.0.1"
   },
   "devDependencies": {
-    "@babel/helper-validator-identifier": "^7.28.5",
-    "@eslint/compat": "^2.0.0",
-    "@eslint/js": "^9.39.2",
-    "eslint": "^9.39.2",
-    "eslint-formatter-pretty": "^7.0.0",
-    "eslint-plugin-ninja": "^0.0.8",
-    "eslint-plugin-perfectionist": "^5.3.0",
-    "eslint-plugin-sonarjs": "^3.0.5",
-    "eslint-plugin-unicorn": "^62.0.0",
-    "lodash": "^4.17.23",
-    "prettier-linter-helpers": "^1.0.1"
+    "@10xly/eslint-config": "^1.0.1",
+    "eslint": "^9.39.2"
   }
 }
